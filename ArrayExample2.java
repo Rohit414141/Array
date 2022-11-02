@@ -1,0 +1,28 @@
+public class ArrayExample2{
+	public static void main(String s[]) {
+		System.out.println("ram");
+		int a[];
+		a= new int [4];
+		a[0]=10;
+		a[1]=20;
+		a[2]=30;
+		a[3]=40;
+		//a[4]=50;//error out of bound area run time error
+		System.out.println(a[0]);
+		System.out.println(a[1]);
+		System.out.println(a[2]);
+		System.out.println(a[3]);
+		System.out.println();
+		//System.out.println(a[4]);//error
+		for(int x = 0;x<a.length;x++) {
+			System.out.println(a[x]);
+		}
+		System.out.println();
+		for(int x:a) {
+			System.out.println(x);
+		}
+		
+	}
+}
+
+
